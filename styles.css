@@ -1,4 +1,102 @@
 body {
-    background: linear-gradient(to right, pink, lightblue);
     font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ffb6c1, #add8e6);
+    margin: 0;
+    padding: 20px;
+}
+
+.titulo {
+    text-align: center;
+    color: deeppink;
+    font-size: 45px;
+}
+
+.subtitulo {
+    text-align: center;
+    color: purple;
+    font-size: 30px;
+}
+
+.imagen_centro {
+    text-align: center;
+}
+
+.imagen_principal {
+    width: 400px;
+    max-width: 90%;
+    border-radius: 20px;
+    margin: 20px auto;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.caja1 {
+    width: 40%;
+    min-width: 300px;
+    background-color: white;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.caja2 {
+    width: 40%;
+    min-width: 300px;
+    background-color:white;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px gray;
+}
+
+
+.seccion-titulo1,
+.seccion_titulo2 {
+    text-align: center;
+    color: purple;
+    font-size: 32px;
+}
+
+.lista {
+    font-size: 18px;
+    line-height: 2;
+    padding-left: 25px;
+}
+
+.lista_preparacion {
+    font-size: 18px;
+    line-height: 2;
+    padding-left: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+
+.linea {
+    border: none;
+    height: 4px;
+    background-color: white;
+    width: 95%;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+.consejo_titulo {
+    text-align: center;
+    color: purple;
+    font-size: 38px;
+}
+
+.consejo_texto {
+    text-align: center;
+    font-size: 22px;
+    color: #333;
 }
